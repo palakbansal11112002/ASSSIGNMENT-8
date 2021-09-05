@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+  margin-bottom: 20px;
+ 
+}
+
+
+
+.menu {
+    background-color: black;
+    text-align: center;
+}
+
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu ul li {
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.menu ul li :hover,.active
+{
+    background:goldenrod;
+}
+.container
+{
+    background-image: url(./logo.png);
+    position: relative;
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+}
+.box3
+        {
+            width:310px;
+            height:310px;
+            background-color: black;
+            border-radius: 160px;
+            display:inline-flex;
+            margin-right: 60px;
+            margin-left: 25px;
+            background-image: url(./team1a.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-clip: border-box;
+            border: solid black 3px;
+            
+        }
+        .box4
+        {
+            width:310px;
+            height:310px;
+            background-color: goldenrod;
+            border-radius: 160px;
+            display: inline-flex;
+            margin-right: 60px;
+            background-image: url(./team2c.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-clip: border-box;
+            border: solid black 3px;
+        }
+        .box5
+        {
+            width:310px;
+            height:310px;
+            background-color: goldenrod;
+            border-radius: 160px;
+            display: inline-flex;
+            margin-right: 60px;
+            background-image: url(./team3b.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-clip: border-box;
+            border: solid black 3px;
+        }.box6
+        {
+            width:310px;
+            height:310px;
+            background-color: goldenrod;
+            border-radius: 160px;
+            display: inline-flex;
+            margin-right: 40px;
+            background-image: url(./team4a.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-clip: border-box;
+            border: solid black 3px;
+        }
+        .box7
+        {
+            width:500px;
+            height:500px;
+            background-color: grey;margin-left: 10px;
+            
+        }
+        .box8
+        {
+            width:990px;
+            height:150px;
+            background-color: orangered;
+            float:right;
+            margin-top: -500px;
+            margin-right:5px;
+            margin-left: 300px;
+            line-height: 119px;
+            background-image: url(./birds.jpg);
+            background-size: cover;
+            height: 150px;
+            width: 990px;
+            background-repeat: no-repeat;
+        }
+        .box9
+        {
+            width:990px;
+            height:150px;
+            background-color: orangered;
+            margin-top: -320px;
+            margin-right: 5px;
+            float: right;
+            line-height: 119px;
+            background-image: url(./f1.jpg);
+            background-size: cover;
+            height: 150;
+            width: 990px;
+            background-repeat: no-repeat;
+            
+            
+            
+            
+        }
+        .box10
+        {
+            width:990px;
+            height:150px;
+            background-color: orangered;
+            margin-top: -150px;
+            margin-right: 5px;
+            float: right;
+            line-height: 118px;
+            background-image: url(./f2.jpg);
+            background-size: cover;
+            height: 150px;
+            width: 990px;
+            background-repeat: no-repeat;
+            
+            
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #container1 {
+            display: inline-flex;
+        }
+
+        /* body {
+            background-color: rgb(214, 111, 104);
+        } */
+
+        .box {
+            width: 350px;
+            background-color: blueviolet;
+            height: 400px;
+            overflow: auto;
+            overflow: hidden;
+            border: 2px solid black;
+            margin-bottom: 10px;
+            text-align: justify;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+            border: 5px solid rgb(43, 15, 15);
+
+
+
+
+        }
+
+        #box1 {
+            background-color: blue;
+            margin-left: 40px;
+
+        }
+
+        #box2 {
+            background-color: pink;
+        }
+
+        #box3a {
+            background-color: blueviolet;
+        }
+
+        #box4a {
+            background-color: greenyellow;
+
+        }
+
+        .box img {
+            width: 100%;
+            height: 100px;
+            border-radius: 20px;
+        }
+
+        .box h2 {
+            text-align: center;
+
+        }
+
+        .mybutton {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: Arial;
+            background-color: rgb(83, 124, 207);
+            padding: 10px 20px;
+            border-radius: 20px;
+
+
+
+
+        }
+
+        .mybutton:hover {
+            background-color: rgb(224, 54, 134);
+        }
+
+        #first {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: Arial;
+            background-color: rgb(224, 54, 134);
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        .box16
+        {
+            width:100%;
+            height:100px;
+            background-color:rgb(214, 54, 80);
+            line-height: 60px;
+            margin-top: -20px;
+        }
+       
